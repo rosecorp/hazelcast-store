@@ -12,7 +12,6 @@ public class HazelcastStoreTest {
 
     private HazelcastStore testObj = new HazelcastStore();
 
-
     @BeforeClass
     public static void before() {
         startInstance();
