@@ -37,6 +37,7 @@ public class HazelcastStoreTest {
 
     public static void startInstance() {
         Config cfg = new Config();
+        cfg.setProperty("hazelcast.logging.type", "slf4j");
         Hazelcast.newHazelcastInstance(cfg);
     }
 
