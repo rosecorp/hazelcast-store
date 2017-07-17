@@ -71,3 +71,7 @@ crashlytics.properties
 crashlytics-build.properties
 fabric.properties
 
+/hazelcast-store.iml
+/hazelcast-store.ipr
+/.idea/
+/target/
